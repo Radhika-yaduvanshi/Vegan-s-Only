@@ -1,0 +1,152 @@
+
+/* Author : Radhika Yadav
+   THeme  : Food order webbsite
+   Virsion:1.0
+    */
+    *{
+        margin: 0;
+        padding: 0;
+        font-feature-settings: arial,helvetica,sans-serif;
+
+    }
+.wrapper{
+/* border: 1px solid black; */
+padding:2%;
+width: 80%;
+}
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+a{
+    color:#7f8fa6
+}
+
+/* css for menu */
+.menu{
+    border-bottom: 1px solid #a4b0be;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    color:#ff6b81 ;
+}
+.menu ul li a:hover{
+    color:#a4b0be ;
+    /* color:#8a23ad ; */
+}
+
+
+/* css for main content */
+
+.main-content{
+margin: 1% 0;
+background-color: #f1f2f6;
+padding: 3% 0;
+}
+.col-4{
+    width: 19%;
+    background-color: white;
+    margin: 2%;
+    padding: 1%;
+    float: left;
+    
+}
+.table-spacing td {
+    padding-right: 10px; /* Adjust the value as per your preference */
+}
+.tbl-full{
+    width: 100%;
+    /* column-gap: 40px; */
+   
+    
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 6px;
+    column-gap: 30px;
+    padding-right: 10px; 
+}
+table tr td{
+    padding:2%;
+    white-space: nowrap;
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+    padding-right: 10px; 
+}
+.btn-primary{
+    background-color: #7ed6df;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    border-radius: 3px;
+}
+.btn-primary:hover{
+    background-color:#f6e58d ;
+}
+.btn-secondary{
+    background-color:#f0932b;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    border-radius: 3px;
+    /* margin-bottom: .4em; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.btn-secondary:hover{
+    background-color:#ffbe76;
+}
+.btn-danger{
+    background-color:#f9ca24;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    border-radius: 3px;
+}
+.btn-danger:hover{
+    background-color: #f6e58d;
+}
+.tbl-30{
+width: 30%;
+}
+
+.success{
+    color: #01a3a4;
+}
+.error{
+    color: #ee5253;
+}
+
+
+/* css for footer */
+.footer{
+    background-color: #273c75;
+    color: white;
+    /* color: #ff6b81; */
+    }
+
+    /* css for login */
+
+
+    .login{
+        width: 20%;
+        border: 1px solid gray;
+        margin: 10% auto;
+        padding: 2%;
+
+    }
